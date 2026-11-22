@@ -152,7 +152,7 @@
     canvas.height = height * pixelRatio;
     context.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
     impactX = width > 860 ? width * 0.7 : width * 0.5;
-    impactY = height * (width > 860 ? 0.7 : 0.8);
+    impactY = height * (width > 860 ? 0.7 : 0.62);
   }
 
   function resetDrop() {
