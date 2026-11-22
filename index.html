@@ -3,413 +3,261 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>
-      Uji Dua &ndash; Pure water, beautifully simple
-    </title>
+    <title>Uji Dua – Pure water, beautifully simple</title>
     <meta name="description" content="Dua Water is a premium bottled-water brand inspired by the mountains of Lybeten.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles.css">
-<script src="/script.js" defer></script>
+
+    <!-- Change these paths if your files are in different folders. -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/script.js" defer></script>
   </head>
+
   <body>
-    <a class="skip" href="#main">
-      Skip to content
-    </a>
+    <a class="skip" href="#main">Skip to content</a>
+
     <header id="hdr">
       <div class="wrap bar">
-        <a class="logo" href="#top" aria-label="Uji Dua &ndash; home">
+        <a class="logo" href="#top" aria-label="Uji Dua – home">
           <svg viewBox="0 0 28 34" aria-hidden="true">
             <path d="M14 1C14 1 2 15 2 22a12 12 0 0 0 24 0C26 15 14 1 14 1Z" fill="currentColor"/>
             <path d="M8 22c3-2 5 2 8 0s4-1 4-1" stroke="#06214a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
           </svg>
           Uji Dua
         </a>
+
         <nav id="nav" aria-label="Main">
           <ul>
-            <li>
-              <a href="#story">
-                Uji Dua
-              </a>
-            </li>
-            <li>
-              <a href="#quality">
-                Kualiteti
-              </a>
-            </li>
-            <li>
-              <a href="#products">
-                Koleksioni
-              </a>
-            </li>
-            <li>
-              <a href="#qendrueshmëria">
-                Qëndrueshmëria
-              </a>
-            </li>
+            <li><a href="#story">Uji Dua</a></li>
+            <li><a href="#quality">Kualiteti</a></li>
+            <li><a href="#products">Koleksioni</a></li>
+            <li><a href="#sustainability">Qëndrueshmëria</a></li>
           </ul>
         </nav>
+
         <div class="nav-end">
-          <a class="btn btn-blue" href="#contact">
-            Na kontaktoni
-          </a>
-          <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
-            <span>
-            </span>
+          <a class="btn btn-blue" href="#contact">Na kontaktoni</a>
+          <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+            <span></span>
           </button>
         </div>
       </div>
     </header>
+
     <main id="main">
-      <section class="hero" id="top" aria-labelledby="h1" style="padding-bottom:0">
-    
+      <section class="hero" id="top" aria-labelledby="h1" style="padding-bottom: 0">
         <svg class="mtn" viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true">
           <path d="M0 400V230l140-60 130 50 170-130 120 90 150-100 160 120 150-80 190 110 130-50v220Z" fill="#0d3f7e" opacity=".55"/>
           <path d="M0 400V290l180-70 160 60 200-110 190 120 180-80 200 90 170-60 160 60v100Z" fill="#0a3269" opacity=".8"/>
           <path d="M0 400V350l240-50 260 40 260-40 280 40 400-30v90Z" fill="var(--bg)"/>
         </svg>
-        <canvas id="drop" aria-hidden="true">
-        </canvas>
+
+        <canvas id="drop" aria-hidden="true"></canvas>
+
         <div class="wrap">
-          <span class="eyebrow reveal">
-            Ujë i cilësisë së lartë
-          </span>
-          <h1 id="h1" class="reveal d1">
-            Freski që buron nga natyra.
-          </h1>
-          <p class="reveal d2">
-            Ujë që buron në malet e Lybetenit, i freskët si vetë natyra.
-          </p>
+          <span class="eyebrow reveal">Ujë i cilësisë së lartë</span>
+          <h1 id="h1" class="reveal d1">Freski që buron nga natyra.</h1>
+          <p class="reveal d2">Ujë që buron në malet e Lybetenit, i freskët si vetë natyra.</p>
           <div class="cta reveal d2">
-            <a class="btn btn-white" href="#products">
-              Zbuloni koleksionin
-            </a>
-            <a class="btn btn-line" href="#contact">
-              Na Kontaktoni
-            </a>
+            <a class="btn btn-white" href="#products">Zbuloni koleksionin</a>
+            <a class="btn btn-line" href="#contact">Na Kontaktoni</a>
           </div>
         </div>
       </section>
+
       <section id="story" aria-labelledby="h-story">
         <div class="wrap split">
           <div class="ph reveal">
             <img src="assets/images/sharr.jpg" alt="Landscape of Lybeten">
           </div>
           <div class="reveal d1">
-            <span class="eyebrow">
-              Një burim i veçantë
-            </span>
-            <h2 id="h-story">
-              Uji Dua, dhuratë e Lybetenit.
-            </h2>
+            <span class="eyebrow">Një burim i veçantë</span>
+            <h2 id="h-story">Uji Dua, dhuratë e Lybetenit.</h2>
             <p>
               Uji Dua vjen nga malet e Lybetenit, ku natyra ruan freskinë dhe bukurinë e saj. Ne e sjellim këtë ujë të ambalazhuar me kujdes, që freskia e Lybetenit të jetë pranë jush çdo ditë.
             </p>
-        </div>
-      </div>
-    </section>
-    <section class="dark" aria-labelledby="h-gal">
-      <div class="wrap">
-        <div class="head reveal" style="margin-bottom:0">
-          <span class="eyebrow">
-            Galeria
-          </span>
-          <h2 id="h-gal">
-            Pamje nga Uji Dua.
-          </h2>
-        </div>
-        <div class="gal reveal">
-          <div class="ph" role="img" aria-label="Placeholder: large photograph of Lybeten">
-            <img src="assets/images/Cool-Toned DUA Bottle in Mountain Stream.png" alt="Landscape of Lybeten">
-            <small>
-              Large, landscape or portrait
-            </small>
-          </div>
-          <div class="ph" role="img" aria-label="Placeholder: second photograph of Lybeten">
-            <img src="assets/images/DUA Water Mug in Mountain Mist.png" alt="Landscape of Lybeten">
-          </div>
-          <div class="ph" role="img" aria-label="Placeholder: third photograph of Lybeten">
-            <img src="assets/images/DUA Water Stationery on Stone.png" alt="DUA Water stationery on stone">
           </div>
         </div>
-      </div>
-    </section>
-    <section id="quality" class="tint" aria-labelledby="h-q">
-      <div class="wrap">
-        <div class="head reveal">
-          <span class="eyebrow">
-            Cilësia e ujit
-          </span>
-          <h2 id="h-q">
-            Cilësi që mund ta verifikoni.
-          </h2>
-          <p>
-            Këtu do të gjeni të dhëna të konfirmuara për cilësinë e ujit Dua, rezultatet e analizave dhe certifikimet përkatëse.
-          </p>
-        </div>
-        <div class="grid3">
-          <article class="card reveal">
-            <span class="tag">
-              Burimi
-            </span>
-            <h3>
-              Burimi i ujit
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate debitis adipisci, soluta, quo ad praesentium incidunt, at facilis fuga quia nisi illum rem quod nobis cum numquam quam modi?
-            </p>
-          </article>
-          <article class="card reveal d1">
-            <span class="tag">
-              Analizat
-            </span>
-            <h3>
-              Analizat e ujit
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate debitis adipisci, soluta, quo ad praesentium incidunt, at facilis fuga quia nisi illum rem quod nobis cum numquam quam modi?
-            </p>
-          </article>
-          <article class="card reveal d2">
-            <span class="tag">
-              Certifikimet
-            </span>
-            <h3>
-              Certifikimet
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate debitis adipisci, soluta, quo ad praesentium incidunt, at facilis fuga quia nisi illum rem quod nobis cum numquam quam modi?
-            </p>
-          </article>
-        </div>
-        <div class="minerals reveal" aria-label="Mineral composition placeholders">
-          <span>
-            <b>
-              Kalcium
-            </b>
-            [&ndash; mg/L]
-          </span>
-          <span>
-            <b>
-              Magnezium
-            </b>
-            [&ndash; mg/L]
-          </span>
-          <span>
-            <b>
-              Natrium
-            </b>
-            [&ndash; mg/L]
-          </span>
-          <span>
-            <b>
-              Bikarbonat
-            </b>
-            [&ndash; mg/L]
-          </span>
-          <span>
-            <b>
-              pH
-            </b>
-            [&ndash;]
-          </span>
-        </div>
-      </div>
-    </section>
-    <section id="products" aria-labelledby="h-p">
-      <div class="wrap">
-        <div class="head reveal">
-          <span class="eyebrow">
-            Koleksioni
-          </span>
-          <h2 id="h-p">
-            I njëjti ujë i pastër, në madhësi të ndryshme.
-          </h2>
-          <p>
-            Zbuloni shishet Dua Water, të përshtatshme për çdo ditë.
-          </p>
-        </div>
-        <div class="grid3" id="grid">
-        </div>
-      </div>
-    </section>
-    <section id="sustainability" class="tint" aria-labelledby="h-s">
-      <div class="wrap split">
-        <div class="reveal">
-          <span class="eyebrow">
-            Qëndrueshmëria
-          </span>
-          <h2 id="h-s">
-            Kujdesi për natyrën
-          </h2>
-          <p>
-            Malet e Lybetenit janë pjesë e historisë së ujit Dua. Prandaj, respekti për natyrën dhe vendin ku buron uji ynë është i rëndësishëm për ne.
-          </p>
-          <ul class="points">
-            <li>
-              <span class="dot">
-              </span>
-              <span>
-                <b>
-                  Ambalazhi
-                </b>
-                <br>
-                Informacion rreth shishes dhe riciklimit të saj.
-              </span>
-            </li>
-            <li>
-              <span class="dot">
-              </span>
-              <span>
-                <b>
-                  Prodhimi
-                </b>
-                <br>
-                Informacion rreth mënyrës së prodhimit të ujit Dua.
-              </span>
-            </li>
-            <li>
-              <span class="dot">
-              </span>
-              <span>
-                <b>
-                  Komuniteti dhe natyra
-                </b>
-                <br>
-                Informacion rreth lidhjes sonë me zonën dhe komunitetin lokal.
-              </span>
-            </li>
-          </ul>
-        </div>
-        <div class="ph reveal d1" role="img" aria-label="Placeholder: nature photograph from Lybeten">
-          <img src="assets/images/sharr.jpg" alt="Landscape of Lybeten">
-          <small>
-            Forest, meadow or stream
-          </small>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="contact" aria-labelledby="h-c">
-      <div class="wrap split">
-        <div class="reveal">
-          <span class="eyebrow">
-            Na kontaktoni
-          </span>
-          <h2 id="h-c">
-            Flasim për ujin Dua.
-          </h2>
-          <p>
-            Na dërgoni një mesazh dhe ne do t'ju përgjigjemi sa më shpejt të jetë e mundur.
-          </p>
-          <ul class="info">
-            <li>
-              <small>
-                Na telefononi
-              </small>
-              <a href="tel:+38345123456">
-                +383 45 123 456
-              </a>
-            </li>
-            <li>
-              <small>
-                Email
-              </small>
-              <a href="mailto:hfillese@gmail.com">
-                hfillese@gmail.com
-              </a>
-            </li>
-            <li>
-              <small>
-                Firajë, Shtërpc, Kosovë
-              </small>
-              Rruga Kryesore, Shtërpc, 10000, Kosovë
-            </li>
-          </ul>
-        </div>
-        <form class="reveal d1" id="inq" novalidate>
-          <label>
-            Emri
-            <input type="text" name="name" autocomplete="name" required>
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" autocomplete="email" required>
-          </label>
-          <label>
-            Mesazhi
-            <textarea name="message" required>
-            </textarea>
-          </label>
-          <button class="btn" type="submit">
-            Dërgo pyetjen
-          </button>
-          <p class="status" role="status" aria-live="polite">
-          </p>
-        </form>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="wrap">
-      <div class="foot">
-        <a class="logo" href="#top" aria-label="Dua Water &ndash; back to top">
-          Uji Dua
-        </a>
-        <nav aria-label="Footer">
-          <ul>
-            <li>
-              <a href="#story">
-                Uji Dua
-              </a>
-            </li>
-            <li>
-              <a href="#quality">
-                Kualiteti
-              </a>
-            </li>
-            <li>
-              <a href="#products">
-                Koleksioni
-              </a>
-            </li>
-            <li>
-              <a href="#sustainability">
-                Qëndrueshmëria
-              </a>
-            </li>
-            <li>
-              <a href="#contact">
-                Na kontaktoni
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <ul aria-label="Social links">
-          <li>
-            <a href="#">
-              Instagram
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              LinkedIn
-            </a>
-          </li>
-        </ul>
-      </div>
-      <p class="copy">
-        &copy; 2026 Dua Water. All rights reserved.
-      </p>
-    </div>
-  </footer>
-  <script src="js/script.js">
-  </script>
-</body>
-</html>
+      </section>
 
+      <section class="dark" aria-labelledby="h-gal">
+        <div class="wrap">
+          <div class="head reveal" style="margin-bottom: 0">
+            <span class="eyebrow">Galeria</span>
+            <h2 id="h-gal">Pamje nga Uji Dua.</h2>
+          </div>
+
+          <div class="gal reveal">
+            <div class="ph">
+              <img src="assets/images/Cool-Toned DUA Bottle in Mountain Stream.png" alt="Dua Water bottle in a mountain stream">
+            </div>
+            <div class="ph">
+              <img src="assets/images/DUA Water Mug in Mountain Mist.png" alt="Dua Water mug in mountain mist">
+            </div>
+            <div class="ph">
+              <img src="assets/images/DUA Water Stationery on Stone.png" alt="Dua Water stationery on stone">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quality" class="tint" aria-labelledby="h-q">
+        <div class="wrap">
+          <div class="head reveal">
+            <span class="eyebrow">Cilësia e ujit</span>
+            <h2 id="h-q">Cilësi që mund ta verifikoni.</h2>
+            <p>
+              Këtu do të gjeni të dhëna të konfirmuara për cilësinë e ujit Dua, rezultatet e analizave dhe certifikimet përkatëse.
+            </p>
+          </div>
+
+          <div class="grid3">
+            <article class="card reveal">
+              <span class="tag">Burimi</span>
+              <h3>Burimi i ujit</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate debitis adipisci, soluta, quo ad praesentium incidunt, at facilis fuga quia nisi illum rem quod nobis cum numquam quam modi?
+              </p>
+            </article>
+
+            <article class="card reveal d1">
+              <span class="tag">Analizat</span>
+              <h3>Analizat e ujit</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate debitis adipisci, soluta, quo ad praesentium incidunt, at facilis fuga quia nisi illum rem quod nobis cum numquam quam modi?
+              </p>
+            </article>
+
+            <article class="card reveal d2">
+              <span class="tag">Certifikimet</span>
+              <h3>Certifikimet</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate debitis adipisci, soluta, quo ad praesentium incidunt, at facilis fuga quia nisi illum rem quod nobis cum numquam quam modi?
+              </p>
+            </article>
+          </div>
+
+          <div class="minerals reveal" aria-label="Mineral composition placeholders">
+            <span><b>Kalcium</b> [– mg/L]</span>
+            <span><b>Magnezium</b> [– mg/L]</span>
+            <span><b>Natrium</b> [– mg/L]</span>
+            <span><b>Bikarbonat</b> [– mg/L]</span>
+            <span><b>pH</b> [–]</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" aria-labelledby="h-p">
+        <div class="wrap">
+          <div class="head reveal">
+            <span class="eyebrow">Koleksioni</span>
+            <h2 id="h-p">I njëjti ujë i pastër, në madhësi të ndryshme.</h2>
+            <p>Zbuloni shishet Dua Water, të përshtatshme për çdo ditë.</p>
+          </div>
+          <div class="grid3" id="grid"></div>
+        </div>
+      </section>
+
+      <section id="sustainability" class="tint" aria-labelledby="h-s">
+        <div class="wrap split">
+          <div class="reveal">
+            <span class="eyebrow">Qëndrueshmëria</span>
+            <h2 id="h-s">Kujdesi për natyrën</h2>
+            <p>
+              Malet e Lybetenit janë pjesë e historisë së ujit Dua. Prandaj, respekti për natyrën dhe vendin ku buron uji ynë është i rëndësishëm për ne.
+            </p>
+
+            <ul class="points">
+              <li>
+                <span class="dot" aria-hidden="true"></span>
+                <span><b>Ambalazhi</b><br>Informacion rreth shishes dhe riciklimit të saj.</span>
+              </li>
+              <li>
+                <span class="dot" aria-hidden="true"></span>
+                <span><b>Prodhimi</b><br>Informacion rreth mënyrës së prodhimit të ujit Dua.</span>
+              </li>
+              <li>
+                <span class="dot" aria-hidden="true"></span>
+                <span><b>Komuniteti dhe natyra</b><br>Informacion rreth lidhjes sonë me zonën dhe komunitetin lokal.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="ph reveal d1">
+            <img src="assets/images/sharr.jpg" alt="Landscape of Lybeten">
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="h-c">
+        <div class="wrap split">
+          <div class="reveal">
+            <span class="eyebrow">Na kontaktoni</span>
+            <h2 id="h-c">Flasim për ujin Dua.</h2>
+            <p>Na dërgoni një mesazh dhe ne do t'ju përgjigjemi sa më shpejt të jetë e mundur.</p>
+
+            <ul class="info">
+              <li>
+                <small>Na telefononi</small>
+                <a href="tel:+38345123456">+383 45 123 456</a>
+              </li>
+              <li>
+                <small>Email</small>
+                <a href="mailto:hfillese@gmail.com">hfillese@gmail.com</a>
+              </li>
+              <li>
+                <small>Firajë, Shtërpc, Kosovë</small>
+                Rruga Kryesore, Shtërpc, 10000, Kosovë
+              </li>
+            </ul>
+          </div>
+
+          <form class="reveal d1" id="inq" novalidate>
+            <label>
+              Emri
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>
+              Mesazhi
+              <textarea name="message" required></textarea>
+            </label>
+            <button class="btn" type="submit">Dërgo pyetjen</button>
+            <p class="status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="foot">
+          <a class="logo" href="#top" aria-label="Uji Dua – back to top">Uji Dua</a>
+
+          <nav aria-label="Footer">
+            <ul>
+              <li><a href="#story">Uji Dua</a></li>
+              <li><a href="#quality">Kualiteti</a></li>
+              <li><a href="#products">Koleksioni</a></li>
+              <li><a href="#sustainability">Qëndrueshmëria</a></li>
+              <li><a href="#contact">Na kontaktoni</a></li>
+            </ul>
+          </nav>
+
+          <ul aria-label="Social links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <p class="copy">© 2026 Dua Water. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
